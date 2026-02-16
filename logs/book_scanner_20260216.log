@@ -1,0 +1,1136 @@
+2026-02-16 15:01:14,805 - INFO - ============================================================
+2026-02-16 15:01:14,805 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:01:14,805 - INFO - ============================================================
+2026-02-16 15:01:14,998 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 7 records
+2026-02-16 15:01:14,998 - INFO - 
+==================================================
+2026-02-16 15:01:14,998 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:01:14,998 - INFO - ==================================================
+2026-02-16 15:01:14,998 - INFO - Total Books Scanned: 7
+2026-02-16 15:01:14,999 - INFO - Unique Books: 1
+2026-02-16 15:01:14,999 - INFO - Found in Database: 7
+2026-02-16 15:01:15,000 - INFO - Not Found: 0
+2026-02-16 15:01:15,001 - INFO - 
+📅 Today's Scans (2026-02-16): 7 books
+2026-02-16 15:01:15,002 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:01:15,002 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:01:15,002 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:01:15,002 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:01:15,002 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:01:15,003 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:01:15,003 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:01:15,003 - INFO - ==================================================
+2026-02-16 15:01:25,623 - INFO - Starting interactive scanner...
+2026-02-16 15:01:25,623 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:01:25,624 - INFO - Press 'q' to quit
+2026-02-16 15:01:41,989 - INFO - 📸 Capturing image...
+2026-02-16 15:01:42,138 - WARNING - No ISBN found in image
+2026-02-16 15:01:48,178 - INFO - 📸 Capturing image...
+2026-02-16 15:01:48,315 - WARNING - No ISBN found in image
+2026-02-16 15:01:54,046 - INFO - 📸 Capturing image...
+2026-02-16 15:01:54,178 - INFO - Decoded Barcode: 9781845950156
+2026-02-16 15:01:54,178 - INFO - Barcode Type: EAN13
+2026-02-16 15:01:54,179 - INFO - ✅ ISBN Detected: 9781845950156
+2026-02-16 15:01:56,102 - INFO - 📖 Processing new ISBN: 9781845950156
+2026-02-16 15:01:56,103 - DEBUG - Fetching book info for ISBN: 9781845950156
+2026-02-16 15:01:57,196 - INFO - Categories found: Personal narratives, Destruction and pillage, World War, 1939-1945
+2026-02-16 15:01:57,197 - INFO - Book found: Writer at War by Василий Семёнович Гроссман, Antony Beevor, Luba Vinogradova
+2026-02-16 15:01:57,200 - INFO - ✨ Added: Writer at War by Василий Семёнович Гроссман, Antony Beevor, Luba Vinogradova
+2026-02-16 15:01:57,208 - INFO - ✅ Added 1 new book(s) to DataFrame
+2026-02-16 15:02:11,492 - INFO - 📸 Capturing image...
+2026-02-16 15:02:11,617 - WARNING - No ISBN found in image
+2026-02-16 15:02:16,824 - INFO - 📸 Capturing image...
+2026-02-16 15:02:16,931 - INFO - Decoded Barcode: 9781732102217
+2026-02-16 15:02:16,931 - INFO - Barcode Type: EAN13
+2026-02-16 15:02:16,931 - INFO - ✅ ISBN Detected: 9781732102217
+2026-02-16 15:02:18,980 - INFO - 📖 Processing new ISBN: 9781732102217
+2026-02-16 15:02:18,980 - DEBUG - Fetching book info for ISBN: 9781732102217
+2026-02-16 15:02:19,790 - INFO - Book found: A Philosophy of Software Design, 2nd Edition by John K. Ousterhout
+2026-02-16 15:02:19,796 - INFO - ✨ Added: A Philosophy of Software Design, 2nd Edition by John K. Ousterhout
+2026-02-16 15:02:19,804 - INFO - ✅ Added 1 new book(s) to DataFrame
+2026-02-16 15:02:22,934 - INFO - 📸 Capturing image...
+2026-02-16 15:02:23,109 - WARNING - No ISBN found in image
+2026-02-16 15:02:30,146 - INFO - Exiting interactive scanner...
+2026-02-16 15:02:30,485 - INFO - ✅ Appended to 'book_scans.xlsx' - Total records: 3
+2026-02-16 15:02:30,486 - INFO - 
+📊 Final Summary:
+2026-02-16 15:02:30,486 - INFO - 
+==================================================
+2026-02-16 15:02:30,487 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:02:30,487 - INFO - ==================================================
+2026-02-16 15:02:30,488 - INFO - Total Books Scanned: 9
+2026-02-16 15:02:30,489 - INFO - Unique Books: 3
+2026-02-16 15:02:30,492 - INFO - Found in Database: 9
+2026-02-16 15:02:30,495 - INFO - Not Found: 0
+2026-02-16 15:02:30,497 - INFO - 
+📅 Today's Scans (2026-02-16): 9 books
+2026-02-16 15:02:30,501 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:02:30,503 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:02:30,504 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:02:30,505 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:02:30,506 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:02:30,506 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:02:30,507 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:02:30,508 - INFO -   • Writer at War... (ISBN: 9781845950156)
+2026-02-16 15:02:30,509 - INFO -   • A Philosophy of Software Design, 2nd Edition... (ISBN: 9781732102217)
+2026-02-16 15:02:30,510 - INFO - ==================================================
+2026-02-16 15:02:30,510 - INFO - 👋 Application closed
+2026-02-16 15:04:33,961 - INFO - ============================================================
+2026-02-16 15:04:33,961 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:04:33,961 - INFO - ============================================================
+2026-02-16 15:04:33,962 - INFO - 📁 Created new DataFrame
+2026-02-16 15:04:33,963 - INFO - 📊 DataFrame is empty
+2026-02-16 15:04:41,628 - INFO - Starting interactive scanner...
+2026-02-16 15:04:41,629 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:04:41,629 - INFO - Press 'q' to quit
+2026-02-16 15:04:53,047 - INFO - 📸 Capturing image...
+2026-02-16 15:04:53,200 - WARNING - No ISBN found in image
+2026-02-16 15:04:55,813 - INFO - 📸 Capturing image...
+2026-02-16 15:04:55,959 - WARNING - No ISBN found in image
+2026-02-16 15:05:04,715 - INFO - 📸 Capturing image...
+2026-02-16 15:05:04,847 - INFO - Decoded Barcode: 9781732102217
+2026-02-16 15:05:04,847 - INFO - Barcode Type: EAN13
+2026-02-16 15:05:04,848 - INFO - ✅ ISBN Detected: 9781732102217
+2026-02-16 15:05:06,970 - INFO - 📖 Processing new ISBN: 9781732102217
+2026-02-16 15:05:06,970 - DEBUG - Fetching book info for ISBN: 9781732102217
+2026-02-16 15:05:07,974 - INFO - Book found: A Philosophy of Software Design, 2nd Edition by John K. Ousterhout
+2026-02-16 15:05:07,977 - INFO - ✨ Added: A Philosophy of Software Design, 2nd Edition by John K. Ousterhout
+2026-02-16 15:05:07,987 - INFO - ✅ Added 1 new book(s) to DataFrame
+2026-02-16 15:05:14,378 - INFO - 📸 Capturing image...
+2026-02-16 15:05:14,508 - INFO - Decoded Barcode: 9781845950156
+2026-02-16 15:05:14,509 - INFO - Barcode Type: EAN13
+2026-02-16 15:05:14,509 - INFO - ✅ ISBN Detected: 9781845950156
+2026-02-16 15:05:16,476 - INFO - 📖 Processing new ISBN: 9781845950156
+2026-02-16 15:05:16,476 - DEBUG - Fetching book info for ISBN: 9781845950156
+2026-02-16 15:05:17,379 - INFO - Categories found: Personal narratives, Destruction and pillage, World War, 1939-1945
+2026-02-16 15:05:17,379 - INFO - Book found: Writer at War by Василий Семёнович Гроссман, Antony Beevor, Luba Vinogradova
+2026-02-16 15:05:17,380 - INFO - ✨ Added: Writer at War by Василий Семёнович Гроссман, Antony Beevor, Luba Vinogradova
+2026-02-16 15:05:17,383 - INFO - ✅ Added 1 new book(s) to DataFrame
+2026-02-16 15:05:27,220 - INFO - 📸 Capturing image...
+2026-02-16 15:05:27,296 - INFO - Decoded Barcode: 9781780322728
+2026-02-16 15:05:27,296 - INFO - Barcode Type: EAN13
+2026-02-16 15:05:27,296 - INFO - ✅ ISBN Detected: 9781780322728
+2026-02-16 15:05:29,412 - INFO - 📖 Processing new ISBN: 9781780322728
+2026-02-16 15:05:29,412 - DEBUG - Fetching book info for ISBN: 9781780322728
+2026-02-16 15:05:30,404 - INFO - Categories found: Gross domestic product, Political aspects, Economic development
+2026-02-16 15:05:30,404 - INFO - Book found: Gross domestic problem by Lorenzo Fioramonti
+2026-02-16 15:05:30,405 - INFO - ✨ Added: Gross domestic problem by Lorenzo Fioramonti
+2026-02-16 15:05:30,407 - INFO - ✅ Added 1 new book(s) to DataFrame
+2026-02-16 15:05:33,229 - INFO - Exiting interactive scanner...
+2026-02-16 15:05:33,805 - INFO - ✅ Saved to 'book_scans.xlsx' - Total records: 3
+2026-02-16 15:05:33,805 - INFO - 
+📊 Final Summary:
+2026-02-16 15:05:33,805 - INFO - 
+==================================================
+2026-02-16 15:05:33,805 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:05:33,805 - INFO - ==================================================
+2026-02-16 15:05:33,805 - INFO - Total Books Scanned: 3
+2026-02-16 15:05:33,806 - INFO - Unique Books: 3
+2026-02-16 15:05:33,807 - INFO - Found in Database: 3
+2026-02-16 15:05:33,808 - INFO - Not Found: 0
+2026-02-16 15:05:33,808 - INFO - 
+📅 Today's Scans (2026-02-16): 3 books
+2026-02-16 15:05:33,809 - INFO -   • A Philosophy of Software Design, 2nd Edition... (ISBN: 9781732102217)
+2026-02-16 15:05:33,809 - INFO -   • Writer at War... (ISBN: 9781845950156)
+2026-02-16 15:05:33,810 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:05:33,810 - INFO - ==================================================
+2026-02-16 15:05:33,810 - INFO - 👋 Application closed
+2026-02-16 15:27:45,519 - INFO - ============================================================
+2026-02-16 15:27:45,519 - INFO - ============================================================
+2026-02-16 15:27:45,519 - INFO - ============================================================
+2026-02-16 15:27:45,519 - INFO - ============================================================
+2026-02-16 15:27:45,519 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:27:45,519 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:27:45,519 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:27:45,519 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:27:45,519 - INFO - ============================================================
+2026-02-16 15:27:45,519 - INFO - ============================================================
+2026-02-16 15:27:45,519 - INFO - ============================================================
+2026-02-16 15:27:45,519 - INFO - ============================================================
+2026-02-16 15:27:45,706 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:27:45,706 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:27:45,706 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:27:45,706 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:27:45,706 - INFO - 
+==================================================
+2026-02-16 15:27:45,706 - INFO - 
+==================================================
+2026-02-16 15:27:45,706 - INFO - 
+==================================================
+2026-02-16 15:27:45,706 - INFO - 
+==================================================
+2026-02-16 15:27:45,706 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:27:45,706 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:27:45,706 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:27:45,706 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:27:45,707 - INFO - ==================================================
+2026-02-16 15:27:45,707 - INFO - ==================================================
+2026-02-16 15:27:45,707 - INFO - ==================================================
+2026-02-16 15:27:45,707 - INFO - ==================================================
+2026-02-16 15:27:45,707 - INFO - Total Books Scanned: 3
+2026-02-16 15:27:45,707 - INFO - Total Books Scanned: 3
+2026-02-16 15:27:45,707 - INFO - Total Books Scanned: 3
+2026-02-16 15:27:45,707 - INFO - Total Books Scanned: 3
+2026-02-16 15:27:45,708 - INFO - Unique Books: 3
+2026-02-16 15:27:45,708 - INFO - Unique Books: 3
+2026-02-16 15:27:45,708 - INFO - Unique Books: 3
+2026-02-16 15:27:45,708 - INFO - Unique Books: 3
+2026-02-16 15:27:45,709 - INFO - Found in Database: 3
+2026-02-16 15:27:45,709 - INFO - Found in Database: 3
+2026-02-16 15:27:45,709 - INFO - Found in Database: 3
+2026-02-16 15:27:45,709 - INFO - Found in Database: 3
+2026-02-16 15:27:45,710 - INFO - Not Found: 0
+2026-02-16 15:27:45,710 - INFO - Not Found: 0
+2026-02-16 15:27:45,710 - INFO - Not Found: 0
+2026-02-16 15:27:45,710 - INFO - Not Found: 0
+2026-02-16 15:27:45,711 - INFO - 
+📅 Today's Scans (2026-02-16): 3 books
+2026-02-16 15:27:45,711 - INFO - 
+📅 Today's Scans (2026-02-16): 3 books
+2026-02-16 15:27:45,711 - INFO - 
+📅 Today's Scans (2026-02-16): 3 books
+2026-02-16 15:27:45,711 - INFO - 
+📅 Today's Scans (2026-02-16): 3 books
+2026-02-16 15:27:45,712 - INFO -   • A Philosophy of Software Design, 2nd Edition... (ISBN: 9781732102217)
+2026-02-16 15:27:45,712 - INFO -   • A Philosophy of Software Design, 2nd Edition... (ISBN: 9781732102217)
+2026-02-16 15:27:45,712 - INFO -   • A Philosophy of Software Design, 2nd Edition... (ISBN: 9781732102217)
+2026-02-16 15:27:45,712 - INFO -   • A Philosophy of Software Design, 2nd Edition... (ISBN: 9781732102217)
+2026-02-16 15:27:45,712 - INFO -   • Writer at War... (ISBN: 9781845950156)
+2026-02-16 15:27:45,712 - INFO -   • Writer at War... (ISBN: 9781845950156)
+2026-02-16 15:27:45,712 - INFO -   • Writer at War... (ISBN: 9781845950156)
+2026-02-16 15:27:45,712 - INFO -   • Writer at War... (ISBN: 9781845950156)
+2026-02-16 15:27:45,713 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:27:45,713 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:27:45,713 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:27:45,713 - INFO -   • Gross domestic problem... (ISBN: 9781780322728)
+2026-02-16 15:27:45,713 - INFO - ==================================================
+2026-02-16 15:27:45,713 - INFO - ==================================================
+2026-02-16 15:27:45,713 - INFO - ==================================================
+2026-02-16 15:27:45,713 - INFO - ==================================================
+2026-02-16 15:31:25,554 - INFO - ============================================================
+2026-02-16 15:31:25,554 - INFO - ============================================================
+2026-02-16 15:31:25,554 - INFO - ============================================================
+2026-02-16 15:31:25,554 - INFO - ============================================================
+2026-02-16 15:31:25,554 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:31:25,554 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:31:25,554 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:31:25,554 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:31:25,555 - INFO - ============================================================
+2026-02-16 15:31:25,555 - INFO - ============================================================
+2026-02-16 15:31:25,555 - INFO - ============================================================
+2026-02-16 15:31:25,555 - INFO - ============================================================
+2026-02-16 15:31:25,735 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:31:25,735 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:31:25,735 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:31:25,735 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:31:25,735 - INFO - 
+==================================================
+2026-02-16 15:31:25,735 - INFO - 
+==================================================
+2026-02-16 15:31:25,735 - INFO - 
+==================================================
+2026-02-16 15:31:25,735 - INFO - 
+==================================================
+2026-02-16 15:31:25,735 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:31:25,735 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:31:25,735 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:31:25,735 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:31:25,736 - INFO - ==================================================
+2026-02-16 15:31:25,736 - INFO - ==================================================
+2026-02-16 15:31:25,736 - INFO - ==================================================
+2026-02-16 15:31:25,736 - INFO - ==================================================
+2026-02-16 15:31:25,736 - INFO - Total Scans: 3
+2026-02-16 15:31:25,736 - INFO - Total Scans: 3
+2026-02-16 15:31:25,736 - INFO - Total Scans: 3
+2026-02-16 15:31:25,736 - INFO - Total Scans: 3
+2026-02-16 15:31:25,737 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:31:25,737 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:31:25,737 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:31:25,737 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:31:25,738 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:31:25,738 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:31:25,738 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:31:25,738 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:31:25,739 - INFO -   • Writer at War
+2026-02-16 15:31:25,739 - INFO -   • Writer at War
+2026-02-16 15:31:25,739 - INFO -   • Writer at War
+2026-02-16 15:31:25,739 - INFO -   • Writer at War
+2026-02-16 15:31:25,739 - INFO -   • Gross domestic problem
+2026-02-16 15:31:25,739 - INFO -   • Gross domestic problem
+2026-02-16 15:31:25,739 - INFO -   • Gross domestic problem
+2026-02-16 15:31:25,739 - INFO -   • Gross domestic problem
+2026-02-16 15:31:25,739 - INFO - ==================================================
+2026-02-16 15:31:25,739 - INFO - ==================================================
+2026-02-16 15:31:25,739 - INFO - ==================================================
+2026-02-16 15:31:25,739 - INFO - ==================================================
+2026-02-16 15:31:28,287 - INFO - Starting interactive scanner...
+2026-02-16 15:31:28,287 - INFO - Starting interactive scanner...
+2026-02-16 15:31:28,287 - INFO - Starting interactive scanner...
+2026-02-16 15:31:28,287 - INFO - Starting interactive scanner...
+2026-02-16 15:31:28,288 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:31:28,288 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:31:28,288 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:31:28,288 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:31:28,289 - INFO - Press 'q' to quit
+2026-02-16 15:31:28,289 - INFO - Press 'q' to quit
+2026-02-16 15:31:28,289 - INFO - Press 'q' to quit
+2026-02-16 15:31:28,289 - INFO - Press 'q' to quit
+2026-02-16 15:31:37,312 - INFO - 📸 Capturing image...
+2026-02-16 15:31:37,312 - INFO - 📸 Capturing image...
+2026-02-16 15:31:37,312 - INFO - 📸 Capturing image...
+2026-02-16 15:31:37,312 - INFO - 📸 Capturing image...
+2026-02-16 15:31:37,449 - WARNING - No ISBN found in image
+2026-02-16 15:31:37,449 - WARNING - No ISBN found in image
+2026-02-16 15:31:37,449 - WARNING - No ISBN found in image
+2026-02-16 15:31:37,449 - WARNING - No ISBN found in image
+2026-02-16 15:31:39,090 - INFO - 📸 Capturing image...
+2026-02-16 15:31:39,090 - INFO - 📸 Capturing image...
+2026-02-16 15:31:39,090 - INFO - 📸 Capturing image...
+2026-02-16 15:31:39,090 - INFO - 📸 Capturing image...
+2026-02-16 15:31:39,211 - WARNING - No ISBN found in image
+2026-02-16 15:31:39,211 - WARNING - No ISBN found in image
+2026-02-16 15:31:39,211 - WARNING - No ISBN found in image
+2026-02-16 15:31:39,211 - WARNING - No ISBN found in image
+2026-02-16 15:31:41,013 - INFO - 📸 Capturing image...
+2026-02-16 15:31:41,013 - INFO - 📸 Capturing image...
+2026-02-16 15:31:41,013 - INFO - 📸 Capturing image...
+2026-02-16 15:31:41,013 - INFO - 📸 Capturing image...
+2026-02-16 15:31:41,106 - WARNING - No ISBN found in image
+2026-02-16 15:31:41,106 - WARNING - No ISBN found in image
+2026-02-16 15:31:41,106 - WARNING - No ISBN found in image
+2026-02-16 15:31:41,106 - WARNING - No ISBN found in image
+2026-02-16 15:31:47,744 - INFO - 📸 Capturing image...
+2026-02-16 15:31:47,744 - INFO - 📸 Capturing image...
+2026-02-16 15:31:47,744 - INFO - 📸 Capturing image...
+2026-02-16 15:31:47,744 - INFO - 📸 Capturing image...
+2026-02-16 15:31:47,870 - INFO - Decoded Barcode: 9781780322728
+2026-02-16 15:31:47,870 - INFO - Decoded Barcode: 9781780322728
+2026-02-16 15:31:47,870 - INFO - Decoded Barcode: 9781780322728
+2026-02-16 15:31:47,870 - INFO - Decoded Barcode: 9781780322728
+2026-02-16 15:31:47,871 - INFO - Barcode Type: EAN13
+2026-02-16 15:31:47,871 - INFO - Barcode Type: EAN13
+2026-02-16 15:31:47,871 - INFO - Barcode Type: EAN13
+2026-02-16 15:31:47,871 - INFO - Barcode Type: EAN13
+2026-02-16 15:31:47,872 - INFO - ✅ ISBN Detected: 9781780322728
+2026-02-16 15:31:47,872 - INFO - ✅ ISBN Detected: 9781780322728
+2026-02-16 15:31:47,872 - INFO - ✅ ISBN Detected: 9781780322728
+2026-02-16 15:31:47,872 - INFO - ✅ ISBN Detected: 9781780322728
+2026-02-16 15:31:49,974 - INFO - ⏭️  Skipping duplicate ISBN: 9781780322728
+2026-02-16 15:31:49,974 - INFO - ⏭️  Skipping duplicate ISBN: 9781780322728
+2026-02-16 15:31:49,974 - INFO - ⏭️  Skipping duplicate ISBN: 9781780322728
+2026-02-16 15:31:49,974 - INFO - ⏭️  Skipping duplicate ISBN: 9781780322728
+2026-02-16 15:31:49,975 - INFO - 📋 No new books to add
+2026-02-16 15:31:49,975 - INFO - 📋 No new books to add
+2026-02-16 15:31:49,975 - INFO - 📋 No new books to add
+2026-02-16 15:31:49,975 - INFO - 📋 No new books to add
+2026-02-16 15:31:55,435 - INFO - Exiting interactive scanner...
+2026-02-16 15:31:55,435 - INFO - Exiting interactive scanner...
+2026-02-16 15:31:55,435 - INFO - Exiting interactive scanner...
+2026-02-16 15:31:55,435 - INFO - Exiting interactive scanner...
+2026-02-16 15:31:55,767 - INFO - ✅ Appended to 'book_scans.xlsx' - Total records: 3
+2026-02-16 15:31:55,767 - INFO - ✅ Appended to 'book_scans.xlsx' - Total records: 3
+2026-02-16 15:31:55,767 - INFO - ✅ Appended to 'book_scans.xlsx' - Total records: 3
+2026-02-16 15:31:55,767 - INFO - ✅ Appended to 'book_scans.xlsx' - Total records: 3
+2026-02-16 15:31:55,769 - INFO - 
+📊 Final Summary:
+2026-02-16 15:31:55,769 - INFO - 
+📊 Final Summary:
+2026-02-16 15:31:55,769 - INFO - 
+📊 Final Summary:
+2026-02-16 15:31:55,769 - INFO - 
+📊 Final Summary:
+2026-02-16 15:31:55,770 - INFO - 
+==================================================
+2026-02-16 15:31:55,770 - INFO - 
+==================================================
+2026-02-16 15:31:55,770 - INFO - 
+==================================================
+2026-02-16 15:31:55,770 - INFO - 
+==================================================
+2026-02-16 15:31:55,770 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:31:55,770 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:31:55,770 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:31:55,770 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:31:55,771 - INFO - ==================================================
+2026-02-16 15:31:55,771 - INFO - ==================================================
+2026-02-16 15:31:55,771 - INFO - ==================================================
+2026-02-16 15:31:55,771 - INFO - ==================================================
+2026-02-16 15:31:55,772 - INFO - Total Scans: 3
+2026-02-16 15:31:55,772 - INFO - Total Scans: 3
+2026-02-16 15:31:55,772 - INFO - Total Scans: 3
+2026-02-16 15:31:55,772 - INFO - Total Scans: 3
+2026-02-16 15:31:55,777 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:31:55,777 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:31:55,777 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:31:55,777 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:31:55,781 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:31:55,781 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:31:55,781 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:31:55,781 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:31:55,782 - INFO -   • Writer at War
+2026-02-16 15:31:55,782 - INFO -   • Writer at War
+2026-02-16 15:31:55,782 - INFO -   • Writer at War
+2026-02-16 15:31:55,782 - INFO -   • Writer at War
+2026-02-16 15:31:55,783 - INFO -   • Gross domestic problem
+2026-02-16 15:31:55,783 - INFO -   • Gross domestic problem
+2026-02-16 15:31:55,783 - INFO -   • Gross domestic problem
+2026-02-16 15:31:55,783 - INFO -   • Gross domestic problem
+2026-02-16 15:31:55,784 - INFO - ==================================================
+2026-02-16 15:31:55,784 - INFO - ==================================================
+2026-02-16 15:31:55,784 - INFO - ==================================================
+2026-02-16 15:31:55,784 - INFO - ==================================================
+2026-02-16 15:31:55,785 - INFO - 👋 Application closed
+2026-02-16 15:31:55,785 - INFO - 👋 Application closed
+2026-02-16 15:31:55,785 - INFO - 👋 Application closed
+2026-02-16 15:31:55,785 - INFO - 👋 Application closed
+2026-02-16 15:33:20,996 - INFO - ============================================================
+2026-02-16 15:33:20,996 - INFO - ============================================================
+2026-02-16 15:33:20,996 - INFO - ============================================================
+2026-02-16 15:33:20,996 - INFO - ============================================================
+2026-02-16 15:33:20,996 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:33:20,996 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:33:20,996 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:33:20,996 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:33:20,996 - INFO - ============================================================
+2026-02-16 15:33:20,996 - INFO - ============================================================
+2026-02-16 15:33:20,996 - INFO - ============================================================
+2026-02-16 15:33:20,996 - INFO - ============================================================
+2026-02-16 15:33:21,188 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:33:21,188 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:33:21,188 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:33:21,188 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:33:21,188 - INFO - 
+==================================================
+2026-02-16 15:33:21,188 - INFO - 
+==================================================
+2026-02-16 15:33:21,188 - INFO - 
+==================================================
+2026-02-16 15:33:21,188 - INFO - 
+==================================================
+2026-02-16 15:33:21,188 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:33:21,188 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:33:21,188 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:33:21,188 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:33:21,189 - INFO - ==================================================
+2026-02-16 15:33:21,189 - INFO - ==================================================
+2026-02-16 15:33:21,189 - INFO - ==================================================
+2026-02-16 15:33:21,189 - INFO - ==================================================
+2026-02-16 15:33:21,189 - INFO - Total Scans: 3
+2026-02-16 15:33:21,189 - INFO - Total Scans: 3
+2026-02-16 15:33:21,189 - INFO - Total Scans: 3
+2026-02-16 15:33:21,189 - INFO - Total Scans: 3
+2026-02-16 15:33:21,190 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:33:21,190 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:33:21,190 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:33:21,190 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:33:21,191 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:33:21,191 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:33:21,191 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:33:21,191 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:33:21,191 - INFO -   • Writer at War
+2026-02-16 15:33:21,191 - INFO -   • Writer at War
+2026-02-16 15:33:21,191 - INFO -   • Writer at War
+2026-02-16 15:33:21,191 - INFO -   • Writer at War
+2026-02-16 15:33:21,192 - INFO -   • Gross domestic problem
+2026-02-16 15:33:21,192 - INFO -   • Gross domestic problem
+2026-02-16 15:33:21,192 - INFO -   • Gross domestic problem
+2026-02-16 15:33:21,192 - INFO -   • Gross domestic problem
+2026-02-16 15:33:21,192 - INFO - ==================================================
+2026-02-16 15:33:21,192 - INFO - ==================================================
+2026-02-16 15:33:21,192 - INFO - ==================================================
+2026-02-16 15:33:21,192 - INFO - ==================================================
+2026-02-16 15:33:22,539 - INFO - Starting interactive scanner...
+2026-02-16 15:33:22,539 - INFO - Starting interactive scanner...
+2026-02-16 15:33:22,539 - INFO - Starting interactive scanner...
+2026-02-16 15:33:22,539 - INFO - Starting interactive scanner...
+2026-02-16 15:33:22,540 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:33:22,540 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:33:22,540 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:33:22,540 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:33:22,541 - INFO - Press 'q' to quit
+2026-02-16 15:33:22,541 - INFO - Press 'q' to quit
+2026-02-16 15:33:22,541 - INFO - Press 'q' to quit
+2026-02-16 15:33:22,541 - INFO - Press 'q' to quit
+2026-02-16 15:33:34,836 - INFO - 📸 Capturing image...
+2026-02-16 15:33:34,836 - INFO - 📸 Capturing image...
+2026-02-16 15:33:34,836 - INFO - 📸 Capturing image...
+2026-02-16 15:33:34,836 - INFO - 📸 Capturing image...
+2026-02-16 15:33:34,990 - WARNING - No ISBN found in image
+2026-02-16 15:33:34,990 - WARNING - No ISBN found in image
+2026-02-16 15:33:34,990 - WARNING - No ISBN found in image
+2026-02-16 15:33:34,990 - WARNING - No ISBN found in image
+2026-02-16 15:33:36,607 - INFO - 📸 Capturing image...
+2026-02-16 15:33:36,607 - INFO - 📸 Capturing image...
+2026-02-16 15:33:36,607 - INFO - 📸 Capturing image...
+2026-02-16 15:33:36,607 - INFO - 📸 Capturing image...
+2026-02-16 15:33:36,710 - INFO - Decoded Barcode: 9781617292880
+2026-02-16 15:33:36,710 - INFO - Decoded Barcode: 9781617292880
+2026-02-16 15:33:36,710 - INFO - Decoded Barcode: 9781617292880
+2026-02-16 15:33:36,710 - INFO - Decoded Barcode: 9781617292880
+2026-02-16 15:33:36,710 - INFO - Barcode Type: EAN13
+2026-02-16 15:33:36,710 - INFO - Barcode Type: EAN13
+2026-02-16 15:33:36,710 - INFO - Barcode Type: EAN13
+2026-02-16 15:33:36,710 - INFO - Barcode Type: EAN13
+2026-02-16 15:33:36,711 - INFO - ✅ ISBN Detected: 9781617292880
+2026-02-16 15:33:36,711 - INFO - ✅ ISBN Detected: 9781617292880
+2026-02-16 15:33:36,711 - INFO - ✅ ISBN Detected: 9781617292880
+2026-02-16 15:33:36,711 - INFO - ✅ ISBN Detected: 9781617292880
+2026-02-16 15:33:36,711 - INFO - Decoded Barcode: 9781671892880
+2026-02-16 15:33:36,711 - INFO - Decoded Barcode: 9781671892880
+2026-02-16 15:33:36,711 - INFO - Decoded Barcode: 9781671892880
+2026-02-16 15:33:36,711 - INFO - Decoded Barcode: 9781671892880
+2026-02-16 15:33:36,711 - INFO - Barcode Type: EAN13
+2026-02-16 15:33:36,711 - INFO - Barcode Type: EAN13
+2026-02-16 15:33:36,711 - INFO - Barcode Type: EAN13
+2026-02-16 15:33:36,711 - INFO - Barcode Type: EAN13
+2026-02-16 15:33:36,711 - INFO - ✅ ISBN Detected: 9781671892880
+2026-02-16 15:33:36,711 - INFO - ✅ ISBN Detected: 9781671892880
+2026-02-16 15:33:36,711 - INFO - ✅ ISBN Detected: 9781671892880
+2026-02-16 15:33:36,711 - INFO - ✅ ISBN Detected: 9781671892880
+2026-02-16 15:33:38,833 - INFO - 📖 Processing new ISBN: 9781617292880
+2026-02-16 15:33:38,833 - INFO - 📖 Processing new ISBN: 9781617292880
+2026-02-16 15:33:38,833 - INFO - 📖 Processing new ISBN: 9781617292880
+2026-02-16 15:33:38,833 - INFO - 📖 Processing new ISBN: 9781617292880
+2026-02-16 15:36:17,747 - INFO - ============================================================
+2026-02-16 15:36:17,747 - INFO - ============================================================
+2026-02-16 15:36:17,747 - INFO - ============================================================
+2026-02-16 15:36:17,747 - INFO - ============================================================
+2026-02-16 15:36:17,748 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:36:17,748 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:36:17,748 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:36:17,748 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:36:17,748 - INFO - ============================================================
+2026-02-16 15:36:17,748 - INFO - ============================================================
+2026-02-16 15:36:17,748 - INFO - ============================================================
+2026-02-16 15:36:17,748 - INFO - ============================================================
+2026-02-16 15:36:17,917 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:36:17,917 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:36:17,917 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:36:17,917 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 15:36:17,917 - INFO - 
+==================================================
+2026-02-16 15:36:17,917 - INFO - 
+==================================================
+2026-02-16 15:36:17,917 - INFO - 
+==================================================
+2026-02-16 15:36:17,917 - INFO - 
+==================================================
+2026-02-16 15:36:17,917 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:36:17,917 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:36:17,917 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:36:17,917 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:36:17,918 - INFO - ==================================================
+2026-02-16 15:36:17,918 - INFO - ==================================================
+2026-02-16 15:36:17,918 - INFO - ==================================================
+2026-02-16 15:36:17,918 - INFO - ==================================================
+2026-02-16 15:36:17,918 - INFO - Total Scans: 3
+2026-02-16 15:36:17,918 - INFO - Total Scans: 3
+2026-02-16 15:36:17,918 - INFO - Total Scans: 3
+2026-02-16 15:36:17,918 - INFO - Total Scans: 3
+2026-02-16 15:36:17,919 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:36:17,919 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:36:17,919 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:36:17,919 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:36:17,920 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:36:17,920 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:36:17,920 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:36:17,920 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:36:17,920 - INFO -   • Writer at War
+2026-02-16 15:36:17,920 - INFO -   • Writer at War
+2026-02-16 15:36:17,920 - INFO -   • Writer at War
+2026-02-16 15:36:17,920 - INFO -   • Writer at War
+2026-02-16 15:36:17,921 - INFO -   • Gross domestic problem
+2026-02-16 15:36:17,921 - INFO -   • Gross domestic problem
+2026-02-16 15:36:17,921 - INFO -   • Gross domestic problem
+2026-02-16 15:36:17,921 - INFO -   • Gross domestic problem
+2026-02-16 15:36:17,921 - INFO - ==================================================
+2026-02-16 15:36:17,921 - INFO - ==================================================
+2026-02-16 15:36:17,921 - INFO - ==================================================
+2026-02-16 15:36:17,921 - INFO - ==================================================
+2026-02-16 15:36:27,425 - INFO - Starting interactive scanner...
+2026-02-16 15:36:27,425 - INFO - Starting interactive scanner...
+2026-02-16 15:36:27,425 - INFO - Starting interactive scanner...
+2026-02-16 15:36:27,425 - INFO - Starting interactive scanner...
+2026-02-16 15:36:27,426 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:36:27,426 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:36:27,426 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:36:27,426 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:36:27,427 - INFO - Press 'q' to quit
+2026-02-16 15:36:27,427 - INFO - Press 'q' to quit
+2026-02-16 15:36:27,427 - INFO - Press 'q' to quit
+2026-02-16 15:36:27,427 - INFO - Press 'q' to quit
+2026-02-16 15:36:39,011 - INFO - 📸 Capturing image...
+2026-02-16 15:36:39,011 - INFO - 📸 Capturing image...
+2026-02-16 15:36:39,011 - INFO - 📸 Capturing image...
+2026-02-16 15:36:39,011 - INFO - 📸 Capturing image...
+2026-02-16 15:36:39,160 - WARNING - No ISBN found in image
+2026-02-16 15:36:39,160 - WARNING - No ISBN found in image
+2026-02-16 15:36:39,160 - WARNING - No ISBN found in image
+2026-02-16 15:36:39,160 - WARNING - No ISBN found in image
+2026-02-16 15:36:45,545 - INFO - 📸 Capturing image...
+2026-02-16 15:36:45,545 - INFO - 📸 Capturing image...
+2026-02-16 15:36:45,545 - INFO - 📸 Capturing image...
+2026-02-16 15:36:45,545 - INFO - 📸 Capturing image...
+2026-02-16 15:36:45,667 - INFO - Decoded Barcode: 9781617292880
+2026-02-16 15:36:45,667 - INFO - Decoded Barcode: 9781617292880
+2026-02-16 15:36:45,667 - INFO - Decoded Barcode: 9781617292880
+2026-02-16 15:36:45,667 - INFO - Decoded Barcode: 9781617292880
+2026-02-16 15:36:45,667 - INFO - Barcode Type: EAN13
+2026-02-16 15:36:45,667 - INFO - Barcode Type: EAN13
+2026-02-16 15:36:45,667 - INFO - Barcode Type: EAN13
+2026-02-16 15:36:45,667 - INFO - Barcode Type: EAN13
+2026-02-16 15:36:45,668 - INFO - ✅ ISBN Detected: 9781617292880
+2026-02-16 15:36:45,668 - INFO - ✅ ISBN Detected: 9781617292880
+2026-02-16 15:36:45,668 - INFO - ✅ ISBN Detected: 9781617292880
+2026-02-16 15:36:45,668 - INFO - ✅ ISBN Detected: 9781617292880
+2026-02-16 15:36:45,668 - INFO - Decoded Barcode: 9787671292880
+2026-02-16 15:36:45,668 - INFO - Decoded Barcode: 9787671292880
+2026-02-16 15:36:45,668 - INFO - Decoded Barcode: 9787671292880
+2026-02-16 15:36:45,668 - INFO - Decoded Barcode: 9787671292880
+2026-02-16 15:36:45,668 - INFO - Barcode Type: EAN13
+2026-02-16 15:36:45,668 - INFO - Barcode Type: EAN13
+2026-02-16 15:36:45,668 - INFO - Barcode Type: EAN13
+2026-02-16 15:36:45,668 - INFO - Barcode Type: EAN13
+2026-02-16 15:36:45,668 - INFO - ✅ ISBN Detected: 9787671292880
+2026-02-16 15:36:45,668 - INFO - ✅ ISBN Detected: 9787671292880
+2026-02-16 15:36:45,668 - INFO - ✅ ISBN Detected: 9787671292880
+2026-02-16 15:36:45,668 - INFO - ✅ ISBN Detected: 9787671292880
+2026-02-16 15:36:47,591 - INFO - 📖 Processing new ISBN: 9781617292880
+2026-02-16 15:36:47,591 - INFO - 📖 Processing new ISBN: 9781617292880
+2026-02-16 15:36:47,591 - INFO - 📖 Processing new ISBN: 9781617292880
+2026-02-16 15:36:47,591 - INFO - 📖 Processing new ISBN: 9781617292880
+2026-02-16 15:36:47,592 - DEBUG - Fetching book info for ISBN: 9781617292880
+2026-02-16 15:36:47,592 - DEBUG - Fetching book info for ISBN: 9781617292880
+2026-02-16 15:36:47,592 - DEBUG - Fetching book info for ISBN: 9781617292880
+2026-02-16 15:36:47,592 - DEBUG - Fetching book info for ISBN: 9781617292880
+2026-02-16 15:36:48,421 - INFO - Categories found: Cloud computing, Amazon.com (Firm), Amazon Web Services (Firm)
+2026-02-16 15:36:48,421 - INFO - Categories found: Cloud computing, Amazon.com (Firm), Amazon Web Services (Firm)
+2026-02-16 15:36:48,421 - INFO - Categories found: Cloud computing, Amazon.com (Firm), Amazon Web Services (Firm)
+2026-02-16 15:36:48,421 - INFO - Categories found: Cloud computing, Amazon.com (Firm), Amazon Web Services (Firm)
+2026-02-16 15:36:48,422 - INFO - Book found: Amazon Web Services in Action by Andreas Wittig, Michael Wittig
+2026-02-16 15:36:48,422 - INFO - Book found: Amazon Web Services in Action by Andreas Wittig, Michael Wittig
+2026-02-16 15:36:48,422 - INFO - Book found: Amazon Web Services in Action by Andreas Wittig, Michael Wittig
+2026-02-16 15:36:48,422 - INFO - Book found: Amazon Web Services in Action by Andreas Wittig, Michael Wittig
+2026-02-16 15:36:48,425 - INFO - ✨ Added: Amazon Web Services in Action by Andreas Wittig, Michael Wittig
+2026-02-16 15:36:48,425 - INFO - ✨ Added: Amazon Web Services in Action by Andreas Wittig, Michael Wittig
+2026-02-16 15:36:48,425 - INFO - ✨ Added: Amazon Web Services in Action by Andreas Wittig, Michael Wittig
+2026-02-16 15:36:48,425 - INFO - ✨ Added: Amazon Web Services in Action by Andreas Wittig, Michael Wittig
+2026-02-16 15:36:48,427 - INFO - 📖 Processing new ISBN: 9787671292880
+2026-02-16 15:36:48,427 - INFO - 📖 Processing new ISBN: 9787671292880
+2026-02-16 15:36:48,427 - INFO - 📖 Processing new ISBN: 9787671292880
+2026-02-16 15:36:48,427 - INFO - 📖 Processing new ISBN: 9787671292880
+2026-02-16 15:36:48,428 - DEBUG - Fetching book info for ISBN: 9787671292880
+2026-02-16 15:36:48,428 - DEBUG - Fetching book info for ISBN: 9787671292880
+2026-02-16 15:36:48,428 - DEBUG - Fetching book info for ISBN: 9787671292880
+2026-02-16 15:36:48,428 - DEBUG - Fetching book info for ISBN: 9787671292880
+2026-02-16 15:36:49,153 - WARNING - No information found for ISBN 9787671292880
+2026-02-16 15:36:49,153 - WARNING - No information found for ISBN 9787671292880
+2026-02-16 15:36:49,153 - WARNING - No information found for ISBN 9787671292880
+2026-02-16 15:36:49,153 - WARNING - No information found for ISBN 9787671292880
+2026-02-16 15:36:49,157 - INFO - ✨ Added ISBN: 9787671292880 (details not found)
+2026-02-16 15:36:49,157 - INFO - ✨ Added ISBN: 9787671292880 (details not found)
+2026-02-16 15:36:49,157 - INFO - ✨ Added ISBN: 9787671292880 (details not found)
+2026-02-16 15:36:49,157 - INFO - ✨ Added ISBN: 9787671292880 (details not found)
+2026-02-16 15:36:49,165 - INFO - ✅ Added 2 new book(s) to DataFrame
+2026-02-16 15:36:49,165 - INFO - ✅ Added 2 new book(s) to DataFrame
+2026-02-16 15:36:49,165 - INFO - ✅ Added 2 new book(s) to DataFrame
+2026-02-16 15:36:49,165 - INFO - ✅ Added 2 new book(s) to DataFrame
+2026-02-16 15:36:53,954 - INFO - Exiting interactive scanner...
+2026-02-16 15:36:53,954 - INFO - Exiting interactive scanner...
+2026-02-16 15:36:53,954 - INFO - Exiting interactive scanner...
+2026-02-16 15:36:53,954 - INFO - Exiting interactive scanner...
+2026-02-16 15:36:54,312 - INFO - ✅ Appended to 'book_scans.xlsx' - Total records: 5
+2026-02-16 15:36:54,312 - INFO - ✅ Appended to 'book_scans.xlsx' - Total records: 5
+2026-02-16 15:36:54,312 - INFO - ✅ Appended to 'book_scans.xlsx' - Total records: 5
+2026-02-16 15:36:54,312 - INFO - ✅ Appended to 'book_scans.xlsx' - Total records: 5
+2026-02-16 15:36:54,313 - INFO - 
+📊 Final Summary:
+2026-02-16 15:36:54,313 - INFO - 
+📊 Final Summary:
+2026-02-16 15:36:54,313 - INFO - 
+📊 Final Summary:
+2026-02-16 15:36:54,313 - INFO - 
+📊 Final Summary:
+2026-02-16 15:36:54,314 - INFO - 
+==================================================
+2026-02-16 15:36:54,314 - INFO - 
+==================================================
+2026-02-16 15:36:54,314 - INFO - 
+==================================================
+2026-02-16 15:36:54,314 - INFO - 
+==================================================
+2026-02-16 15:36:54,315 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:36:54,315 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:36:54,315 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:36:54,315 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:36:54,315 - INFO - ==================================================
+2026-02-16 15:36:54,315 - INFO - ==================================================
+2026-02-16 15:36:54,315 - INFO - ==================================================
+2026-02-16 15:36:54,315 - INFO - ==================================================
+2026-02-16 15:36:54,316 - INFO - Total Scans: 5
+2026-02-16 15:36:54,316 - INFO - Total Scans: 5
+2026-02-16 15:36:54,316 - INFO - Total Scans: 5
+2026-02-16 15:36:54,316 - INFO - Total Scans: 5
+2026-02-16 15:36:54,322 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:36:54,322 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:36:54,322 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:36:54,322 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:36:54,325 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:36:54,325 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:36:54,325 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:36:54,325 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:36:54,327 - INFO -   • Writer at War
+2026-02-16 15:36:54,327 - INFO -   • Writer at War
+2026-02-16 15:36:54,327 - INFO -   • Writer at War
+2026-02-16 15:36:54,327 - INFO -   • Writer at War
+2026-02-16 15:36:54,328 - INFO -   • Gross domestic problem
+2026-02-16 15:36:54,328 - INFO -   • Gross domestic problem
+2026-02-16 15:36:54,328 - INFO -   • Gross domestic problem
+2026-02-16 15:36:54,328 - INFO -   • Gross domestic problem
+2026-02-16 15:36:54,330 - INFO -   • Amazon Web Services in Action
+2026-02-16 15:36:54,330 - INFO -   • Amazon Web Services in Action
+2026-02-16 15:36:54,330 - INFO -   • Amazon Web Services in Action
+2026-02-16 15:36:54,330 - INFO -   • Amazon Web Services in Action
+2026-02-16 15:36:54,332 - INFO -   • N/A
+2026-02-16 15:36:54,332 - INFO -   • N/A
+2026-02-16 15:36:54,332 - INFO -   • N/A
+2026-02-16 15:36:54,332 - INFO -   • N/A
+2026-02-16 15:36:54,333 - INFO - ==================================================
+2026-02-16 15:36:54,333 - INFO - ==================================================
+2026-02-16 15:36:54,333 - INFO - ==================================================
+2026-02-16 15:36:54,333 - INFO - ==================================================
+2026-02-16 15:36:54,334 - INFO - 👋 Application closed
+2026-02-16 15:36:54,334 - INFO - 👋 Application closed
+2026-02-16 15:36:54,334 - INFO - 👋 Application closed
+2026-02-16 15:36:54,334 - INFO - 👋 Application closed
+2026-02-16 15:39:25,157 - INFO - ============================================================
+2026-02-16 15:39:25,157 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:39:25,157 - INFO - ============================================================
+2026-02-16 15:39:25,322 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 5 records
+2026-02-16 15:39:25,322 - INFO - 
+==================================================
+2026-02-16 15:39:25,322 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:39:25,322 - INFO - ==================================================
+2026-02-16 15:39:25,323 - INFO - Total Scans: 5
+2026-02-16 15:39:25,324 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:39:25,324 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:39:25,325 - INFO -   • Writer at War
+2026-02-16 15:39:25,325 - INFO -   • Gross domestic problem
+2026-02-16 15:39:25,325 - INFO -   • Amazon Web Services in Action
+2026-02-16 15:39:25,325 - INFO -   • nan
+2026-02-16 15:39:25,325 - INFO - ==================================================
+2026-02-16 15:39:27,086 - INFO - Starting single scan mode...
+2026-02-16 15:39:27,086 - INFO - Developer mode enabled: Skipping webcam capture.
+2026-02-16 15:39:27,171 - INFO - Decoded Barcode: 9781617292880
+2026-02-16 15:39:27,172 - INFO - Barcode Type: EAN13
+2026-02-16 15:39:27,172 - INFO - ✅ ISBN Detected: 9781617292880
+2026-02-16 15:39:27,172 - INFO - Decoded Barcode: 9787671292880
+2026-02-16 15:39:27,173 - INFO - Barcode Type: EAN13
+2026-02-16 15:39:27,173 - INFO - ✅ ISBN Detected: 9787671292880
+2026-02-16 15:39:30,395 - INFO - ⏭️  Skipping duplicate ISBN: 9781617292880
+2026-02-16 15:39:30,396 - INFO - ⏭️  Skipping duplicate ISBN: 9787671292880
+2026-02-16 15:39:30,396 - INFO - 📋 No new books to add
+2026-02-16 15:39:30,396 - INFO - No new books to add.
+2026-02-16 15:39:30,529 - INFO - ✅ Appended to 'book_scans.xlsx' - Total records: 5
+2026-02-16 15:39:30,529 - INFO - 
+📊 Final Summary:
+2026-02-16 15:39:30,530 - INFO - 
+==================================================
+2026-02-16 15:39:30,530 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:39:30,530 - INFO - ==================================================
+2026-02-16 15:39:30,530 - INFO - Total Scans: 5
+2026-02-16 15:39:30,534 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:39:30,537 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:39:30,537 - INFO -   • Writer at War
+2026-02-16 15:39:30,538 - INFO -   • Gross domestic problem
+2026-02-16 15:39:30,539 - INFO -   • Amazon Web Services in Action
+2026-02-16 15:39:30,539 - INFO -   • nan
+2026-02-16 15:39:30,540 - INFO - ==================================================
+2026-02-16 15:39:30,540 - INFO - 👋 Application closed
+2026-02-16 15:39:37,241 - INFO - ============================================================
+2026-02-16 15:39:37,241 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:39:37,241 - INFO - ============================================================
+2026-02-16 15:39:37,433 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 5 records
+2026-02-16 15:39:37,434 - INFO - 
+==================================================
+2026-02-16 15:39:37,434 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:39:37,434 - INFO - ==================================================
+2026-02-16 15:39:37,434 - INFO - Total Scans: 5
+2026-02-16 15:39:37,435 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:39:37,436 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:39:37,436 - INFO -   • Writer at War
+2026-02-16 15:39:37,436 - INFO -   • Gross domestic problem
+2026-02-16 15:39:37,436 - INFO -   • Amazon Web Services in Action
+2026-02-16 15:39:37,437 - INFO -   • nan
+2026-02-16 15:39:37,437 - INFO - ==================================================
+2026-02-16 15:39:37,437 - INFO - Starting interactive scanner...
+2026-02-16 15:39:37,437 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:39:37,437 - INFO - Press 'q' to quit
+2026-02-16 15:39:49,045 - INFO - 📸 Capturing image...
+2026-02-16 15:39:49,177 - INFO - Decoded Barcode: 9789083381824
+2026-02-16 15:39:49,177 - INFO - Barcode Type: EAN13
+2026-02-16 15:39:49,177 - INFO - ✅ ISBN Detected: 9789083381824
+2026-02-16 15:39:51,099 - INFO - 📖 Processing new ISBN: 9789083381824
+2026-02-16 15:39:51,100 - DEBUG - Fetching book info for ISBN: 9789083381824
+2026-02-16 15:39:52,399 - INFO - Book found: The Software Engineer's Guidebook: Navigating senior, tech lead, and staff engineer positions at tech companies and startups by Gergely Orosz
+2026-02-16 15:39:52,401 - INFO - ✨ Added: The Software Engineer's Guidebook: Navigating senior, tech lead, and staff engineer positions at tech companies and startups by Gergely Orosz
+2026-02-16 15:39:52,408 - INFO - ✅ Added 1 new book(s) to DataFrame
+2026-02-16 15:40:03,976 - INFO - Exiting interactive scanner...
+2026-02-16 15:40:04,311 - INFO - ✅ Appended to 'book_scans.xlsx' - Total records: 6
+2026-02-16 15:40:04,311 - INFO - 
+📊 Final Summary:
+2026-02-16 15:40:04,311 - INFO - 
+==================================================
+2026-02-16 15:40:04,312 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:40:04,312 - INFO - ==================================================
+2026-02-16 15:40:04,312 - INFO - Total Scans: 6
+2026-02-16 15:40:04,318 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:40:04,321 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:40:04,321 - INFO -   • Writer at War
+2026-02-16 15:40:04,323 - INFO -   • Gross domestic problem
+2026-02-16 15:40:04,324 - INFO -   • Amazon Web Services in Action
+2026-02-16 15:40:04,325 - INFO -   • nan
+2026-02-16 15:40:04,326 - INFO -   • The Software Engineer's Guidebook: Navigating senior, tech lead, and staff engineer positions at tech companies and startups
+2026-02-16 15:40:04,327 - INFO - ==================================================
+2026-02-16 15:40:04,327 - INFO - 👋 Application closed
+2026-02-16 15:40:09,811 - INFO - ============================================================
+2026-02-16 15:40:09,811 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:40:09,811 - INFO - ============================================================
+2026-02-16 15:40:09,971 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 6 records
+2026-02-16 15:40:09,971 - INFO - 
+==================================================
+2026-02-16 15:40:09,971 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:40:09,971 - INFO - ==================================================
+2026-02-16 15:40:09,971 - INFO - Total Scans: 6
+2026-02-16 15:40:09,973 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:40:09,973 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:40:09,973 - INFO -   • Writer at War
+2026-02-16 15:40:09,974 - INFO -   • Gross domestic problem
+2026-02-16 15:40:09,974 - INFO -   • Amazon Web Services in Action
+2026-02-16 15:40:09,974 - INFO -   • nan
+2026-02-16 15:40:09,974 - INFO -   • The Software Engineer's Guidebook: Navigating senior, tech lead, and staff engineer positions at tech companies and startups
+2026-02-16 15:40:09,974 - INFO - ==================================================
+2026-02-16 15:40:15,490 - INFO - Starting interactive scanner...
+2026-02-16 15:40:15,490 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:40:15,490 - INFO - Press 'q' to quit
+2026-02-16 15:40:34,735 - INFO - 📸 Capturing image...
+2026-02-16 15:40:34,881 - WARNING - No ISBN found in image
+2026-02-16 15:40:42,804 - INFO - 📸 Capturing image...
+2026-02-16 15:40:42,947 - WARNING - No ISBN found in image
+2026-02-16 15:40:44,567 - INFO - 📸 Capturing image...
+2026-02-16 15:40:44,703 - INFO - Decoded Barcode: 9781845950156
+2026-02-16 15:40:44,703 - INFO - Barcode Type: EAN13
+2026-02-16 15:40:44,703 - INFO - ✅ ISBN Detected: 9781845950156
+2026-02-16 15:40:46,628 - INFO - ⏭️  Skipping duplicate ISBN: 9781845950156
+2026-02-16 15:40:46,629 - INFO - 📋 No new books to add
+2026-02-16 15:40:54,700 - INFO - 📸 Capturing image...
+2026-02-16 15:40:54,827 - INFO - Decoded Barcode: 9781845950156
+2026-02-16 15:40:54,827 - INFO - Barcode Type: EAN13
+2026-02-16 15:40:54,827 - INFO - ✅ ISBN Detected: 9781845950156
+2026-02-16 15:40:56,951 - INFO - ⏭️  Skipping duplicate ISBN: 9781845950156
+2026-02-16 15:40:56,952 - INFO - 📋 No new books to add
+2026-02-16 15:41:01,068 - INFO - 📸 Capturing image...
+2026-02-16 15:41:01,195 - INFO - Decoded Barcode: 9781845950156
+2026-02-16 15:41:01,195 - INFO - Barcode Type: EAN13
+2026-02-16 15:41:01,195 - INFO - ✅ ISBN Detected: 9781845950156
+2026-02-16 15:41:02,031 - INFO - ⏭️  Skipping duplicate ISBN: 9781845950156
+2026-02-16 15:41:02,032 - INFO - 📋 No new books to add
+2026-02-16 15:41:29,532 - INFO - 📸 Capturing image...
+2026-02-16 15:41:29,640 - INFO - Decoded Barcode: 9781098129460
+2026-02-16 15:41:29,640 - INFO - Barcode Type: EAN13
+2026-02-16 15:41:29,640 - INFO - ✅ ISBN Detected: 9781098129460
+2026-02-16 15:41:31,563 - INFO - 📖 Processing new ISBN: 9781098129460
+2026-02-16 15:41:31,563 - DEBUG - Fetching book info for ISBN: 9781098129460
+2026-02-16 15:41:32,491 - INFO - Book found: Practical Data Privacy by Katharine Jarmul
+2026-02-16 15:41:32,494 - INFO - ✨ Added: Practical Data Privacy by Katharine Jarmul
+2026-02-16 15:41:32,499 - INFO - ✅ Added 1 new book(s) to DataFrame
+2026-02-16 15:41:36,170 - INFO - Exiting interactive scanner...
+2026-02-16 15:41:36,471 - INFO - ✅ Appended to 'book_scans.xlsx' - Total records: 7
+2026-02-16 15:41:36,472 - INFO - 
+📊 Final Summary:
+2026-02-16 15:41:36,472 - INFO - 
+==================================================
+2026-02-16 15:41:36,472 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:41:36,472 - INFO - ==================================================
+2026-02-16 15:41:36,472 - INFO - Total Scans: 7
+2026-02-16 15:41:36,476 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:41:36,479 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:41:36,479 - INFO -   • Writer at War
+2026-02-16 15:41:36,480 - INFO -   • Gross domestic problem
+2026-02-16 15:41:36,480 - INFO -   • Amazon Web Services in Action
+2026-02-16 15:41:36,481 - INFO -   • nan
+2026-02-16 15:41:36,482 - INFO -   • The Software Engineer's Guidebook: Navigating senior, tech lead, and staff engineer positions at tech companies and startups
+2026-02-16 15:41:36,482 - INFO -   • Practical Data Privacy
+2026-02-16 15:41:36,483 - INFO - ==================================================
+2026-02-16 15:41:36,483 - INFO - 👋 Application closed
+2026-02-16 15:51:39,743 - INFO - ============================================================
+2026-02-16 15:51:39,744 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:51:39,744 - INFO - ============================================================
+2026-02-16 15:51:39,905 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 7 records
+2026-02-16 15:51:39,905 - INFO - 
+==================================================
+2026-02-16 15:51:39,905 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:51:39,905 - INFO - ==================================================
+2026-02-16 15:51:39,905 - INFO - Total Scans: 7
+2026-02-16 15:51:39,906 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:51:39,907 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:51:39,907 - INFO -   • Writer at War
+2026-02-16 15:51:39,907 - INFO -   • Gross domestic problem
+2026-02-16 15:51:39,907 - INFO -   • Amazon Web Services in Action
+2026-02-16 15:51:39,907 - INFO -   • nan
+2026-02-16 15:51:39,908 - INFO -   • The Software Engineer's Guidebook: Navigating senior, tech lead, and staff engineer positions at tech companies and startups
+2026-02-16 15:51:39,908 - INFO -   • Practical Data Privacy
+2026-02-16 15:51:39,908 - INFO - ==================================================
+2026-02-16 15:51:49,052 - INFO - Starting interactive scanner...
+2026-02-16 15:51:49,053 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:51:49,053 - INFO - Press 'q' to quit
+2026-02-16 15:52:00,229 - INFO - 📸 Capturing image...
+2026-02-16 15:52:00,353 - INFO - Decoded Barcode: 9780140440485
+2026-02-16 15:52:00,353 - INFO - Barcode Type: EAN13
+2026-02-16 15:52:00,353 - INFO - ✅ ISBN Detected: 9780140440485
+2026-02-16 15:52:02,514 - INFO - 📖 Processing new ISBN: 9780140440485
+2026-02-16 15:52:02,515 - DEBUG - Fetching book info for ISBN: 9780140440485
+2026-02-16 15:52:03,426 - INFO - Categories found: Political science, Early works to 1800, Utopias
+2026-02-16 15:52:03,426 - INFO - Book found: The Republic by Πλάτων
+2026-02-16 15:52:03,430 - INFO - ✨ Added: The Republic by Πλάτων
+2026-02-16 15:52:03,439 - INFO - ✅ Added 1 new book(s) to DataFrame
+2026-02-16 15:52:24,066 - INFO - Exiting interactive scanner...
+2026-02-16 15:52:24,412 - INFO - ✅ Appended to 'book_scans.xlsx' - Total records: 8
+2026-02-16 15:52:24,414 - INFO - 
+📊 Final Summary:
+2026-02-16 15:52:24,415 - INFO - 
+==================================================
+2026-02-16 15:52:24,415 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 15:52:24,416 - INFO - ==================================================
+2026-02-16 15:52:24,416 - INFO - Total Scans: 8
+2026-02-16 15:52:24,424 - INFO - 
+📅 Books scanned today:
+2026-02-16 15:52:24,427 - INFO -   • A Philosophy of Software Design, 2nd Edition
+2026-02-16 15:52:24,428 - INFO -   • Writer at War
+2026-02-16 15:52:24,430 - INFO -   • Gross domestic problem
+2026-02-16 15:52:24,431 - INFO -   • Amazon Web Services in Action
+2026-02-16 15:52:24,433 - INFO -   • nan
+2026-02-16 15:52:24,434 - INFO -   • The Software Engineer's Guidebook: Navigating senior, tech lead, and staff engineer positions at tech companies and startups
+2026-02-16 15:52:24,435 - INFO -   • Practical Data Privacy
+2026-02-16 15:52:24,436 - INFO -   • The Republic
+2026-02-16 15:52:24,437 - INFO - ==================================================
+2026-02-16 15:52:24,437 - INFO - 👋 Application closed
+2026-02-16 15:53:16,081 - INFO - ============================================================
+2026-02-16 15:53:16,081 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:53:16,081 - INFO - ============================================================
+2026-02-16 15:53:16,082 - INFO - 📁 Created new DataFrame
+2026-02-16 15:53:16,082 - INFO - 📊 DataFrame is empty
+2026-02-16 15:53:18,892 - INFO - Starting interactive scanner...
+2026-02-16 15:53:18,892 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:53:18,892 - INFO - Press 'q' to quit
+2026-02-16 15:53:24,921 - INFO - 📸 Capturing image...
+2026-02-16 15:53:25,046 - INFO - Decoded Barcode: 9780140440485
+2026-02-16 15:53:25,046 - INFO - Barcode Type: EAN13
+2026-02-16 15:53:25,046 - INFO - ✅ ISBN Detected: 9780140440485
+2026-02-16 15:53:41,379 - INFO - ============================================================
+2026-02-16 15:53:41,379 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:53:41,379 - INFO - ============================================================
+2026-02-16 15:53:41,380 - INFO - 📁 Created new DataFrame
+2026-02-16 15:53:41,380 - INFO - 📊 DataFrame is empty
+2026-02-16 15:53:44,023 - INFO - Starting single scan mode...
+2026-02-16 15:53:44,024 - INFO - Developer mode enabled: Skipping webcam capture.
+2026-02-16 15:53:44,120 - INFO - Decoded Barcode: 9780140440485
+2026-02-16 15:53:44,121 - INFO - Barcode Type: EAN13
+2026-02-16 15:53:44,121 - INFO - ✅ ISBN Detected: 9780140440485
+2026-02-16 15:59:06,095 - INFO - ============================================================
+2026-02-16 15:59:06,095 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 15:59:06,095 - INFO - ============================================================
+2026-02-16 15:59:06,096 - INFO - 📁 Created new DataFrame
+2026-02-16 15:59:06,096 - INFO - 📊 DataFrame is empty
+2026-02-16 15:59:07,579 - INFO - Starting interactive scanner...
+2026-02-16 15:59:07,580 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 15:59:07,580 - INFO - Press 'q' to quit
+2026-02-16 15:59:15,331 - INFO - 📸 Capturing image...
+2026-02-16 15:59:15,484 - WARNING - No ISBN found in image
+2026-02-16 15:59:20,364 - INFO - 📸 Capturing image...
+2026-02-16 15:59:20,516 - WARNING - No ISBN found in image
+2026-02-16 15:59:24,064 - INFO - 📸 Capturing image...
+2026-02-16 15:59:24,194 - INFO - Decoded Barcode: 9780140440485
+2026-02-16 15:59:24,194 - INFO - Barcode Type: EAN13
+2026-02-16 15:59:24,194 - INFO - ✅ ISBN Detected: 9780140440485
+2026-02-16 16:00:05,781 - INFO - ============================================================
+2026-02-16 16:00:05,782 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 16:00:05,782 - INFO - ============================================================
+2026-02-16 16:00:05,783 - INFO - 📁 Created new DataFrame
+2026-02-16 16:00:05,783 - INFO - 📊 DataFrame is empty
+2026-02-16 16:00:07,869 - INFO - Starting interactive scanner...
+2026-02-16 16:00:07,869 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 16:00:07,872 - INFO - Press 'q' to quit
+2026-02-16 16:00:16,894 - INFO - 📸 Capturing image...
+2026-02-16 16:00:17,045 - WARNING - No ISBN found in image
+2026-02-16 16:00:19,726 - INFO - 📸 Capturing image...
+2026-02-16 16:00:19,853 - INFO - Decoded Barcode: 9780140440485
+2026-02-16 16:00:19,853 - INFO - Barcode Type: EAN13
+2026-02-16 16:00:19,853 - INFO - ✅ ISBN Detected: 9780140440485
+2026-02-16 16:00:34,422 - INFO - 📸 Capturing image...
+2026-02-16 16:00:34,538 - INFO - Decoded Barcode: 9781098129460
+2026-02-16 16:00:34,538 - INFO - Barcode Type: EAN13
+2026-02-16 16:00:34,538 - INFO - ✅ ISBN Detected: 9781098129460
+2026-02-16 16:00:46,591 - INFO - 📸 Capturing image...
+2026-02-16 16:00:46,718 - WARNING - No ISBN found in image
+2026-02-16 16:00:49,223 - INFO - 📸 Capturing image...
+2026-02-16 16:00:49,363 - DEBUG - Barcode detected in grayscale image
+2026-02-16 16:00:49,364 - INFO - Decoded Barcode: 9781098129460
+2026-02-16 16:00:49,364 - INFO - Barcode Type: EAN13
+2026-02-16 16:00:49,364 - INFO - ✅ ISBN Detected: 9781098129460
+2026-02-16 16:01:05,989 - INFO - 📸 Capturing image...
+2026-02-16 16:01:06,097 - INFO - Decoded Barcode: 9781098129460
+2026-02-16 16:01:06,098 - INFO - Barcode Type: EAN13
+2026-02-16 16:01:06,098 - INFO - ✅ ISBN Detected: 9781098129460
+2026-02-16 16:01:20,019 - INFO - 📸 Capturing image...
+2026-02-16 16:01:20,144 - INFO - Decoded Barcode: 9781732102217
+2026-02-16 16:01:20,144 - INFO - Barcode Type: EAN13
+2026-02-16 16:01:20,144 - INFO - ✅ ISBN Detected: 9781732102217
+2026-02-16 16:01:24,782 - INFO - 📸 Capturing image...
+2026-02-16 16:01:24,931 - WARNING - No ISBN found in image
+2026-02-16 16:01:30,774 - INFO - 📸 Capturing image...
+2026-02-16 16:01:30,842 - INFO - Decoded Barcode: 9781732102217
+2026-02-16 16:01:30,842 - INFO - Barcode Type: EAN13
+2026-02-16 16:01:30,842 - INFO - ✅ ISBN Detected: 9781732102217
+2026-02-16 16:01:37,354 - INFO - Exiting interactive scanner...
+2026-02-16 16:01:37,559 - INFO - 👋 Application closed
+2026-02-16 16:02:59,822 - INFO - ============================================================
+2026-02-16 16:02:59,822 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 16:02:59,822 - INFO - ============================================================
+2026-02-16 16:02:59,823 - INFO - 📁 Created new DataFrame
+2026-02-16 16:02:59,824 - INFO - 📊 DataFrame is empty
+2026-02-16 16:03:02,570 - INFO - Starting interactive scanner...
+2026-02-16 16:03:02,570 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 16:03:02,570 - INFO - Press 'q' to quit
+2026-02-16 16:03:10,373 - INFO - 📸 Capturing image...
+2026-02-16 16:03:10,472 - INFO - Decoded Barcode: 9781732102217
+2026-02-16 16:03:10,473 - INFO - Barcode Type: EAN13
+2026-02-16 16:03:10,473 - INFO - ✅ ISBN Detected: 9781732102217
+2026-02-16 16:03:12,479 - WARNING - No ISBN found in image
+2026-02-16 16:03:16,106 - INFO - 📸 Capturing image...
+2026-02-16 16:03:16,232 - INFO - Decoded Barcode: 9781732102217
+2026-02-16 16:03:16,232 - INFO - Barcode Type: EAN13
+2026-02-16 16:03:16,233 - INFO - ✅ ISBN Detected: 9781732102217
+2026-02-16 16:03:18,359 - WARNING - No ISBN found in image
+2026-02-16 16:03:34,193 - INFO - Exiting interactive scanner...
+2026-02-16 16:03:34,410 - INFO - 👋 Application closed
+2026-02-16 16:05:12,215 - INFO - ============================================================
+2026-02-16 16:05:12,215 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 16:05:12,215 - INFO - ============================================================
+2026-02-16 16:05:12,216 - INFO - 📁 Created new DataFrame
+2026-02-16 16:05:12,216 - INFO - 📊 DataFrame is empty
+2026-02-16 16:05:16,501 - INFO - Starting interactive scanner...
+2026-02-16 16:05:16,502 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 16:05:16,529 - INFO - Press 'q' to quit
+2026-02-16 16:05:26,374 - INFO - 📸 Capturing image...
+2026-02-16 16:05:26,494 - INFO - Decoded Barcode: 9781732102217
+2026-02-16 16:05:26,494 - INFO - Barcode Type: EAN13
+2026-02-16 16:05:26,495 - INFO - ✅ ISBN Detected: 9781732102217
+2026-02-16 16:05:28,480 - WARNING - No ISBN found in image
+2026-02-16 16:05:31,341 - INFO - 📸 Capturing image...
+2026-02-16 16:05:31,483 - INFO - Decoded Barcode: 9781732102217
+2026-02-16 16:05:31,483 - INFO - Barcode Type: EAN13
+2026-02-16 16:05:31,483 - INFO - ✅ ISBN Detected: 9781732102217
+2026-02-16 16:05:33,480 - WARNING - No ISBN found in image
+2026-02-16 16:05:42,074 - INFO - 📸 Capturing image...
+2026-02-16 16:05:42,193 - INFO - Decoded Barcode: 9781732102217
+2026-02-16 16:05:42,193 - INFO - Barcode Type: EAN13
+2026-02-16 16:05:42,193 - INFO - ✅ ISBN Detected: 9781732102217
+2026-02-16 16:05:44,113 - WARNING - No ISBN found in image
+2026-02-16 16:05:58,320 - INFO - 📸 Capturing image...
+2026-02-16 16:05:58,452 - INFO - Decoded Barcode: 9780140440485
+2026-02-16 16:05:58,452 - INFO - Barcode Type: EAN13
+2026-02-16 16:05:58,452 - INFO - ✅ ISBN Detected: 9780140440485
+2026-02-16 16:06:00,480 - WARNING - No ISBN found in image
+2026-02-16 16:06:08,356 - INFO - 📸 Capturing image...
+2026-02-16 16:06:08,482 - INFO - Decoded Barcode: 9780140440485
+2026-02-16 16:06:08,482 - INFO - Barcode Type: EAN13
+2026-02-16 16:06:08,482 - INFO - ✅ ISBN Detected: 9780140440485
+2026-02-16 16:06:10,481 - WARNING - No ISBN found in image
+2026-02-16 16:06:35,385 - INFO - 📸 Capturing image...
+2026-02-16 16:06:35,506 - INFO - Decoded Barcode: 9780140440485
+2026-02-16 16:06:35,506 - INFO - Barcode Type: EAN13
+2026-02-16 16:06:35,506 - INFO - ✅ ISBN Detected: 9780140440485
+2026-02-16 16:06:37,479 - WARNING - No ISBN found in image
+2026-02-16 16:15:58,920 - INFO - ============================================================
+2026-02-16 16:15:58,920 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 16:15:58,920 - INFO - ============================================================
+2026-02-16 16:15:58,921 - INFO - 📁 Created new DataFrame
+2026-02-16 16:15:58,921 - INFO - 📊 DataFrame is empty
+2026-02-16 16:15:59,976 - INFO - Starting interactive scanner...
+2026-02-16 16:15:59,976 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 16:15:59,976 - INFO - Press 'q' to quit
+2026-02-16 16:16:05,652 - INFO - 📸 Capturing image...
+2026-02-16 16:16:05,724 - INFO - Decoded Barcode: 9780140842081
+2026-02-16 16:16:05,724 - INFO - Barcode Type: EAN13
+2026-02-16 16:16:05,724 - INFO - ✅ ISBN Detected: 9780140842081
+2026-02-16 16:16:05,725 - INFO - Decoded Barcode: 9780140440485
+2026-02-16 16:16:05,725 - INFO - Barcode Type: EAN13
+2026-02-16 16:16:05,725 - INFO - ✅ ISBN Detected: 9780140440485
+2026-02-16 16:16:07,847 - INFO - 📖 Processing new ISBN: 9780140842081
+2026-02-16 16:16:07,848 - DEBUG - Fetching book info for ISBN: 9780140842081
+2026-02-16 16:16:08,719 - WARNING - No information found for ISBN 9780140842081
+2026-02-16 16:16:08,719 - INFO - ✨ Added ISBN: 9780140842081 (details not found)
+2026-02-16 16:16:08,720 - INFO - 📖 Processing new ISBN: 9780140440485
+2026-02-16 16:16:08,720 - DEBUG - Fetching book info for ISBN: 9780140440485
+2026-02-16 16:16:09,675 - INFO - Categories found: Political science, Early works to 1800, Utopias
+2026-02-16 16:16:09,675 - INFO - Book found: The Republic by Πλάτων
+2026-02-16 16:16:09,676 - INFO - ✨ Added: The Republic by Πλάτων
+2026-02-16 16:16:09,679 - INFO - ✅ Added 2 new book(s) to DataFrame
+2026-02-16 16:16:22,729 - INFO - 📸 Capturing image...
+2026-02-16 16:16:22,865 - ERROR - Failed to capture image
+2026-02-16 16:16:31,829 - INFO - 📸 Capturing image...
+2026-02-16 16:16:31,962 - ERROR - Failed to capture image
+2026-02-16 16:16:45,859 - INFO - 📸 Capturing image...
+2026-02-16 16:16:46,006 - INFO - Decoded Barcode: 9781845950156
+2026-02-16 16:16:46,006 - INFO - Barcode Type: EAN13
+2026-02-16 16:16:46,006 - INFO - ✅ ISBN Detected: 9781845950156
+2026-02-16 16:16:47,985 - INFO - 📖 Processing new ISBN: 9781845950156
+2026-02-16 16:16:47,985 - DEBUG - Fetching book info for ISBN: 9781845950156
+2026-02-16 16:16:48,955 - INFO - Categories found: Personal narratives, Destruction and pillage, World War, 1939-1945
+2026-02-16 16:16:48,956 - INFO - Book found: Writer at War by Василий Семёнович Гроссман, Antony Beevor, Luba Vinogradova
+2026-02-16 16:16:48,958 - INFO - ✨ Added: Writer at War by Василий Семёнович Гроссман, Antony Beevor, Luba Vinogradova
+2026-02-16 16:16:48,969 - INFO - ✅ Added 1 new book(s) to DataFrame
+2026-02-16 16:16:54,229 - INFO - Exiting interactive scanner...
+2026-02-16 16:16:54,787 - INFO - ✅ Saved to 'book_scans.xlsx' - Total records: 3
+2026-02-16 16:16:54,787 - INFO - 
+📊 Final Summary:
+2026-02-16 16:16:54,787 - INFO - 
+==================================================
+2026-02-16 16:16:54,788 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 16:16:54,788 - INFO - ==================================================
+2026-02-16 16:16:54,788 - INFO - Total Scans: 3
+2026-02-16 16:16:54,789 - INFO - 
+📅 Books scanned today:
+2026-02-16 16:16:54,790 - INFO -   • N/A
+2026-02-16 16:16:54,790 - INFO -   • The Republic
+2026-02-16 16:16:54,790 - INFO -   • Writer at War
+2026-02-16 16:16:54,790 - INFO - ==================================================
+2026-02-16 16:16:54,790 - INFO - 👋 Application closed
