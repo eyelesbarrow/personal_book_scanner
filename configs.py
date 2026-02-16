@@ -1,8 +1,9 @@
+from dataclasses import dataclass
+from typing import Any, Dict
 
 import cv2
-from dataclasses import dataclass
 import numpy as np
-from typing import  Dict, Any
+
 
 @dataclass
 class Config:
@@ -44,7 +45,7 @@ class DataRecord:
     publish_date: str
     categories: str
     status: str
-    
+
     def to_dict(self) -> Dict[str, Any]:
         return {
             "Date Scanned": self.date_scanned,
@@ -53,5 +54,5 @@ class DataRecord:
             "Authors": self.authors,
             "Publish Date": self.publish_date,
             "Categories/Genres": self.categories,
-            "Status": self.status
+            "Status": self.status,
         }
