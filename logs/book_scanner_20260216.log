@@ -1134,3 +1134,67 @@
 2026-02-16 16:16:54,790 - INFO -   • Writer at War
 2026-02-16 16:16:54,790 - INFO - ==================================================
 2026-02-16 16:16:54,790 - INFO - 👋 Application closed
+2026-02-16 17:14:30,524 - INFO - ============================================================
+2026-02-16 17:14:30,524 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 17:14:30,524 - INFO - ============================================================
+2026-02-16 17:14:30,524 - INFO - Initializing Data Manager...
+2026-02-16 17:14:30,526 - ERROR - Unexpected error: `Import openpyxl` failed.  Use pip or conda to install the openpyxl package.
+2026-02-16 17:14:58,590 - INFO - ============================================================
+2026-02-16 17:14:58,590 - INFO - 📚 BOOK SCANNER APPLICATION
+2026-02-16 17:14:58,590 - INFO - ============================================================
+2026-02-16 17:14:58,590 - INFO - Initializing Data Manager...
+2026-02-16 17:14:58,785 - INFO - 📂 Loaded existing file 'book_scans.xlsx' with 3 records
+2026-02-16 17:14:58,785 - INFO - 
+==================================================
+2026-02-16 17:14:58,785 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 17:14:58,785 - INFO - ==================================================
+2026-02-16 17:14:58,785 - INFO - Total Scans: 3
+2026-02-16 17:14:58,787 - INFO - 
+📅 Books scanned today:
+2026-02-16 17:14:58,788 - INFO -   • nan
+2026-02-16 17:14:58,788 - INFO -   • The Republic
+2026-02-16 17:14:58,788 - INFO -   • Writer at War
+2026-02-16 17:14:58,788 - INFO - ==================================================
+2026-02-16 17:15:03,544 - INFO - Starting interactive scanner mode...
+2026-02-16 17:15:03,544 - INFO - Starting interactive scanner...
+2026-02-16 17:15:03,545 - INFO - Press SPACE to capture and scan barcode
+2026-02-16 17:15:03,545 - INFO - Press 'q' to quit
+2026-02-16 17:15:10,212 - INFO - 📸 Capturing image...
+2026-02-16 17:15:10,345 - INFO - Decoded Barcode: 9780140440485
+2026-02-16 17:15:10,345 - INFO - Barcode Type: EAN13
+2026-02-16 17:15:10,346 - INFO - ✅ ISBN Detected: 9780140440485
+2026-02-16 17:15:12,499 - INFO - ⏭️  Skipping duplicate ISBN: 9780140440485
+2026-02-16 17:15:12,500 - INFO - 📋 No new books to add
+2026-02-16 17:15:42,074 - INFO - 📸 Capturing image...
+2026-02-16 17:15:42,226 - ERROR - Failed to capture image
+2026-02-16 17:15:46,972 - INFO - 📸 Capturing image...
+2026-02-16 17:15:47,127 - ERROR - Failed to capture image
+2026-02-16 17:15:55,366 - INFO - 📸 Capturing image...
+2026-02-16 17:15:55,447 - INFO - Decoded Barcode: 9780340818862
+2026-02-16 17:15:55,447 - INFO - Barcode Type: EAN13
+2026-02-16 17:15:55,447 - INFO - ✅ ISBN Detected: 9780340818862
+2026-02-16 17:15:57,491 - INFO - 📖 Processing new ISBN: 9780340818862
+2026-02-16 17:15:57,492 - DEBUG - Fetching book info for ISBN: 9780340818862
+2026-02-16 17:15:58,457 - INFO - Categories found: Social life and customs, Nationalcharakter, Volkskultur
+2026-02-16 17:15:58,458 - INFO - Book found: Watching the English - The Hidden Rules of English Behaviour by Kate Fox
+2026-02-16 17:15:58,459 - INFO - ✨ Added: Watching the English - The Hidden Rules of English Behaviour by Kate Fox
+2026-02-16 17:15:58,471 - INFO - ✅ Added 1 new book(s) to DataFrame
+2026-02-16 17:16:04,475 - INFO - Exiting interactive scanner...
+2026-02-16 17:16:04,637 - INFO - 
+💾 Saving data to Excel...
+2026-02-16 17:16:04,758 - INFO - ✅ Appended to 'book_scans.xlsx' - Total records: 4
+2026-02-16 17:16:04,759 - INFO - 
+📊 Final Summary:
+2026-02-16 17:16:04,759 - INFO - 
+==================================================
+2026-02-16 17:16:04,759 - INFO - 📊 DATAFRAME SUMMARY
+2026-02-16 17:16:04,760 - INFO - ==================================================
+2026-02-16 17:16:04,760 - INFO - Total Scans: 4
+2026-02-16 17:16:04,765 - INFO - 
+📅 Books scanned today:
+2026-02-16 17:16:04,768 - INFO -   • nan
+2026-02-16 17:16:04,769 - INFO -   • The Republic
+2026-02-16 17:16:04,770 - INFO -   • Writer at War
+2026-02-16 17:16:04,772 - INFO -   • Watching the English - The Hidden Rules of English Behaviour
+2026-02-16 17:16:04,773 - INFO - ==================================================
+2026-02-16 17:16:04,774 - INFO - 👋 Application closed. Happy reading!
